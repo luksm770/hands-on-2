@@ -12,8 +12,8 @@ def calcenergy(a):
     etot = epot + ekin
     temp = 2/3*ekin*1/units.kB
 
-    return "hej"
-    #return epot, ekin, etot, temp
+    #return "hej"
+    return epot, ekin, etot, temp
 
 
 
